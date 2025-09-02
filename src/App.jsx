@@ -1,14 +1,13 @@
 import { useState } from 'react'
 import './App.css'
-import { CustomHook } from './components/CustomHook'
+import { RickAndMortyCharacter } from './components/RickAndMortyCharacter'
 
 function App() {
   const [count, setCount] = useState(1)
 
   return (
     <>
-      <CustomHook></CustomHook>
-
+      <RickAndMortyCharacter />
     </>
   )
 }
